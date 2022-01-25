@@ -1,4 +1,4 @@
-Chapter03 Implementation(구현)
+Chapter04 Implementation(구현)
 
 중요 point : 
 완전 탐색 : 모든 경우의 수를 주저 없이 다 계산하는 해결 방법

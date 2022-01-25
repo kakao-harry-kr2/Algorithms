@@ -1,0 +1,13 @@
+Chapter06 sorting(정렬)
+
+- 선택 정렬 (selection sort)
+arr[i]를 arr[i:] 중에서 가장 작은 것과 교환
+
+- 삽입 정렬 (insertion sort)
+arr[:i]까지는 정렬이 되어있다는 가정하에 arr[i]를 어디에 넣을까?
+
+- 퀵 정렬 (quick sort)
+pivot을 설정해서 pivot를 적절한 곳에 위치시킨다.
+
+- 계수 정렬 (count sort)
+데이터의 범위가 100만 이하로 제한적일때 사용

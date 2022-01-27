@@ -1,0 +1,7 @@
+Chapter 08 Dynamic programming
+
+- memoization
+
+- Top down : 재귀함수 / 큰 문제를 해결하기 위해 작은 문제를 호출한다
+- Bottom up : 반복문 / 작은 문제부터 차근차근 답을 도출하는 경우
+

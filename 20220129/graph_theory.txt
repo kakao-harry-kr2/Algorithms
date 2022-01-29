@@ -1,0 +1,10 @@
+Chapter 10 그래프이론
+
+- Disjoint Sets (서로소 집합)
+operations : union(합치기), find(찾기)
+
+- Spanning Tree (신장 트리)
+Kruskal Algorithm - greedy
+
+- Topology Sort (위상 정렬)
+진입차수 (Indegree) : 특정한 노드로 들어오는 간선의 개수

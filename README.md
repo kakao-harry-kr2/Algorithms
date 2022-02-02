@@ -8,4 +8,4 @@ Algorithms CT
 
 ## 유형별 생각해볼만한 문제들
 
-Dynamic programming : 11066
+Dynamic programming : 7579, 11066

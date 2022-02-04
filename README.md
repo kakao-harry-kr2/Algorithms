@@ -8,5 +8,5 @@ Algorithms CT
 
 ## 유형별 생각해볼만한 문제들
 
-Dynamic programming : 7579, 11066
-Graph : 9370, 11657(BellmanFord)
+- Dynamic programming : 7579, 11066
+- Graph : 9370, 10217(+dp), 11657(BellmanFord)

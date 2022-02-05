@@ -3,10 +3,11 @@ Algorithms CT
 
 ## 생각해볼만한 상황들
 
-- DFS에서 RecursionError : sys.setrecursionlimit(arg: max_depth)
+- DFS에서 RecursionError : sys.setrecursionlimit(max_depth)
 - 문제에 제시된 수들의 범위에 주목하자! : 메모리초과 & 시간초과 & 예외처리
 
 ## 유형별 생각해볼만한 문제들
 
 - Dynamic programming : 7579, 11066
 - Graph : 9370, 10217(+dp), 11657(BellmanFord)
+- Meet in the Middle : 1450(Binary Search)

@@ -31,9 +31,8 @@ while True:
         break
 
     parent = [i for i in range(n + 1)]
-    tree = True
 
-    cycle = [0] * (n + 1)
+    cycle_element = [0] * (n + 1)
 
     for _ in range(m):
         x, y = map(int, input().split())
@@ -46,20 +45,16 @@ while True:
 
         ret = union(parent, x, y)
         if ret == 0:
-            if x_parent < y_parent:
-                cycle[x_parent] = 1
-                cycle[y_parent] = 0
-            else:
-                cycle[y_parent] = 1
-                cycle[x_parent] = 0
+            cycle_element[x] = 1
     
     root_node = [0] * (n + 1)
+    cycle = [0] * (n + 1)
+
+    for i in range(1, n + 1):
+        root_node[getParent(parent, i)] = 1
+        if cycle_element[i] == 1:
+            cycle[parent[i]] = 1
     
-    for par in parent[1:]:
-        root_node[par] = 1
-    
-    print(parent)
-    print(cycle)
     T = sum(root_node) - sum(cycle)
 
     print("Case {}:".format(case_number), end=' ')

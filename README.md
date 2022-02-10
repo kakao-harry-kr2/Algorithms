@@ -5,6 +5,7 @@ Algorithms CT
 
 - DFS에서 RecursionError : sys.setrecursionlimit(max_depth)
 - 문제에 제시된 수들의 범위에 주목하자! : 메모리초과 & 시간초과 & 예외처리
+- 반복되는 계산은 리스트를 통해 저장해놓고 사용하자!
 
 ## 유형별 생각해볼만한 문제들
 

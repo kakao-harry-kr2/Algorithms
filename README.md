@@ -17,3 +17,4 @@ Algorithms CT
 - Dynamic programming : 7579, 11066, 14002(LIS), 2533(+tree), 1086(+bitmask)
 - Graph : 9370, 10217(+dp), 11657(BellmanFord)
 - Meet in the Middle : 1450(Binary Search)
+- String : 1786(KMP)

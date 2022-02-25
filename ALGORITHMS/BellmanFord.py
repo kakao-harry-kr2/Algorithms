@@ -1,3 +1,5 @@
+# 음의 가중치가 있는 그래프에서 최단경로 탐색
+
 import sys
 input = sys.stdin.readline
 INF = int(1e9)

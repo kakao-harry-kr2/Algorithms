@@ -1,3 +1,6 @@
+# Negative Cycle이 없는 그래프에서 임의의 노드들 간의 최단경로 탐색
+# Negative Weight는 존재할 수 있다
+
 INF = int(1e9)
 
 n = int(input())

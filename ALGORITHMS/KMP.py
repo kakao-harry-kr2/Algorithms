@@ -1,3 +1,5 @@
+# 문자열 비교 알고리즘
+
 import sys
 input = sys.stdin.readline
 

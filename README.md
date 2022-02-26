@@ -15,6 +15,6 @@ Algorithms CT
 ## 유형별 생각해볼만한 문제들
 
 - Dynamic programming : 7579, 11066, 14002(LIS), 2533(+tree), 1086(+bitmask)
-- Graph : 9370, 10217(+dp), 11657(BellmanFord)
+- Graph : 9370, 10217(+dp), 11657(BellmanFord), 11280(2-SAT)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)

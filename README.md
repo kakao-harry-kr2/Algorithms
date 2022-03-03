@@ -12,9 +12,17 @@ Algorithms CT
 - 문제에 제시된 수들의 범위에 주목하자! : 메모리초과 & 시간초과 & 예외처리
 - 반복되는 계산은 리스트를 통해 저장해놓고 사용하자!
 
+## ALGORITHMS
+
+- Dijkstra : fixed start & NOT negative weight
+- BellmanFord : fixed start & negative weights & NOT negative cycle
+- FloydWarshall : arbitrary start/end & negative weights & NOT negative cycle
+
+
+
 ## 유형별 생각해볼만한 문제들
 
 - Dynamic programming : 7579, 11066, 14002(LIS), 2533(+tree), 1086(+bitmask)
-- Graph : 9370, 10217(+dp), 11657(BellmanFord), 11280(2-SAT)
+- Graph : 9370, 10217(+dp), 11280(2-SAT)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)

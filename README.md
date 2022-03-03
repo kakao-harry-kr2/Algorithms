@@ -17,12 +17,11 @@ Algorithms CT
 - Dijkstra : fixed start & NOT negative weight
 - BellmanFord : fixed start & negative weights & NOT negative cycle
 - FloydWarshall : arbitrary start/end & negative weights & NOT negative cycle
-
-
+- Kosaraju : find Strongly Connected Component
 
 ## 유형별 생각해볼만한 문제들
 
-- Dynamic programming : 7579, 11066, 14002(LIS), 2533(+tree), 1086(+bitmask)
+- Dynamic programming : 14002(LIS), 2533(+tree), 1086(+bitmask)
 - Graph : 9370, 10217(+dp), 11280(2-SAT)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)

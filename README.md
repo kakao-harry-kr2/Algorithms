@@ -25,4 +25,4 @@ Algorithms CT
 - Graph : 10217(+dp), 11280(2-SAT-3), 11281(2-SAT-4)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)
-- Segment Tree : 2042, 16975(lazy), 5419(북서풍),
+- Segment Tree : 2042, 16975(lazy), 5419, 7626

@@ -3,8 +3,7 @@ Algorithms CT
 
 ## 시공간 복잡도
 
-- 1초에 약 2000만번의 연산
-- 1000만 단위 이상의 리스트 -> 다른 알고리즘을 생각해보자!
+- Time Complexity : 10 ^ 7 CNT/s
 
 ## 생각해볼만한 상황들
 
@@ -21,7 +20,7 @@ Algorithms CT
 
 ## 유형별 생각해볼만한 문제들
 
-- Dynamic programming : 1086(+bitmask)
+- Dynamic programming : 1086(+bitmask), 1509, 2169
 - Graph : 10217(+dp), 11280(2-SAT-3), 11281(2-SAT-4)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)

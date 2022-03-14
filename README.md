@@ -20,7 +20,7 @@ Algorithms CT
 
 ## 유형별 생각해볼만한 문제들
 
-- Dynamic programming : 1086(1D+bitmask), 1509, 2169, 1648(2D+bitmask)
+- Dynamic programming : 1086(1D+bitmask), 1509, 2169, 1648(2D+bitmask), 11003
 - Graph : 10217(+dp), 11280(2-SAT-3), 11281(2-SAT-4)
 - Meet in the Middle : 1450(Binary Search)
 - String : 1786(KMP)

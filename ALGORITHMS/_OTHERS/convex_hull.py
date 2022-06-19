@@ -9,7 +9,7 @@ def get_line(lp, rp):
 
     return a, b, c
 
-def convex_hull(points, lp, rp):
+def convex_hull_impl(points, lp, rp):
     if len(points) <= 3:
         return points
 
@@ -37,28 +37,34 @@ def convex_hull(points, lp, rp):
     points1.append(max_point)
     points2.append(rp)
 
-    return convex_hull(points1, lp, max_point) + convex_hull(points2, max_point, rp)[1:]
+    return convex_hull_impl(points1, lp, max_point) + convex_hull_impl(points2, max_point, rp)[1:]
 
-N, L = map(int, input().split())
+def convex_hull(points:list):
+    if len(points) < 3:
+        return points
+    
+    points.sort()
+
+    lp, rp = points[0], points[-1]
+    a, b, c = get_line(lp, rp)
+
+    upper = [lp]
+    lower = [rp]
+    for point in points:
+        val = a * point[0] + b * point[1] + c
+        if val > 0:
+            upper.append(point)
+        elif val < 0:
+            lower.append(point)
+    upper.append(rp)
+    lower.append(lp)
+
+    upper_points = convex_hull_impl(upper, lp, rp)
+    lower_points = convex_hull_impl(lower, rp, lp)
+
+    return upper_points[:-1] + lower_points[:-1]
+
+N = int(input())
 points = [list(map(int, input().split())) for _ in range(N)]
 
-points.sort()
-
-lp, rp = points[0], points[-1]
-a, b, c = get_line(lp, rp)
-
-upper = [lp]
-lower = [rp]
-for point in points:
-    val = a * point[0] + b * point[1] + c
-    if val > 0:
-        upper.append(point)
-    elif val < 0:
-        lower.append(point)
-upper.append(rp)
-lower.append(lp)
-
-upper_points = convex_hull(upper, lp, rp)
-lower_points = convex_hull(lower, rp, lp)
-
-border_points = upper_points[:-1] + lower_points[:-1]
+print(convex_hull(points))

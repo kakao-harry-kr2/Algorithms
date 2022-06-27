@@ -8,7 +8,9 @@ graph = [[1, 4], [1, 2, 3], [0, 4], [0, 1, 4], [1]]
 slt = [-1] * m
 
 def dfs(visited, src):
-    if visited[src]: return False
+    if visited[src]:
+        return False
+    
     visited[src] = True
 
     # src x에서 연결할 수 있는 dst들을 탐색

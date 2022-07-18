@@ -15,3 +15,6 @@ Algorithms CT
 - 해당 자료구조를 문제에 어떻게 적용할 것인가?
 
 ## Problems to be reviewed
+
+## Problem solving
+- 하루에 하나씩

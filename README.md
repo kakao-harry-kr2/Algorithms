@@ -14,7 +14,11 @@ Algorithms CT
 - 복잡도를 해결할 수 있는 자료구조는 무엇일까?
 - 해당 자료구조를 문제에 어떻게 적용할 것인가?
 
+## Algorithm Review
+- fast fourier transform
+
 ## Problems to be reviewed
+
 
 ## Problem solving
 - 하루에 하나씩

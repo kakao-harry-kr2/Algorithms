@@ -22,3 +22,4 @@ Algorithms CT
 
 ## Problem solving
 - 하루에 하나씩
+- 못한거 채우자

@@ -17,6 +17,7 @@ def fft_impl(x, w):
     
     return ret
 
+# len(x) must be power of 2
 def fft(x):
     N = len(x)
     w = complex(cos(2 * pi / N), sin(2 * pi / N))

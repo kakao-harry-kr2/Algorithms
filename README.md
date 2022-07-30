@@ -15,7 +15,7 @@ Algorithms CT
 - 해당 자료구조를 문제에 어떻게 적용할 것인가?
 
 ## Algorithm Review
-- fast fourier transform
+- fast fourier transform (일반화)
 
 ## Problems to be reviewed
 
